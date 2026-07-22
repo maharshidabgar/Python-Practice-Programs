@@ -13,3 +13,5 @@ elif (A == 5 and G == "M"):
 
 else:
     print("No Fee !")
+
+    
