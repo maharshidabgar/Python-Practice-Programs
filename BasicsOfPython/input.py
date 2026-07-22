@@ -11,6 +11,4 @@ age = int(input("Age : "))
 # float Input
 price = float(input("Price : "))
 
-print(age)
-
-print(price)
+print("My name is ",name, "and I am", age, "Years old")
