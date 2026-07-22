@@ -1,5 +1,16 @@
 # Taking input from user & printing it...
 
-name = (input("name : "))
+# String IP
+name = input("Name : ")
 
 print(name)
+
+# int IP
+age = int(input("Age : "))
+
+# float Input
+price = float(input("Price : "))
+
+print(age)
+
+print(price)
