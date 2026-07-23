@@ -13,4 +13,5 @@ print(len(str1))
 str2 = "College"
 print(len(str2)) # Length of String
 
-print(str1 + str2)
+print(str1 + " " + str2)
+
