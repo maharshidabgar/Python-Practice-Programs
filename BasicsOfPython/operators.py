@@ -10,6 +10,7 @@ print(a / b) # Division
 print(a % b) # Modulo = Remainder = Shesh
 print(a ** b) # Power of B = 2
 
+
 # Comparison / Relational Operators
 
 c = 50
@@ -21,6 +22,7 @@ print(c > d) # True
 print(c >= d) # True
 print(c < d) # False
 print(c <= d) # False
+
 
 # Assignment Operators
 
@@ -43,3 +45,21 @@ print("Division = : ",num)
 
 num **= 2 # Power Off Equal to
 print("Power of = : ",num)
+
+
+# Logical Operators
+
+print(not False) # True
+print(not True) # False
+
+e = 47
+f = 24
+
+print(not (e > f))
+
+val1 = True
+val2 = False
+
+print("AND Operator ans : ", val1 and val2)
+
+print("OR Operator ans : ", val1 or val2)
