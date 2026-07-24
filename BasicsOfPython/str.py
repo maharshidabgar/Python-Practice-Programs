@@ -9,7 +9,7 @@ print(name3)
 # String Concatenation
 
 str1 = "Apdi"
-print(len(str1)) 
+print(len(str1))
 str2 = "College"
 print(len(str2)) # Length of String
 
