@@ -15,3 +15,14 @@ print(len(marks)) # Length of List
 marks[1] = 96.5 # Changes 1 indexed 98.9 to 96.5 permenantly in List
 
 print(marks)
+
+student = ["Maharshi", 392, 7.89, "Anand"]
+
+print(student[0])
+
+student[0] = "Nidhi" # List is Mutable in Python also Access 
+
+print(student) # String is Immutable means only Access not Change
+
+print(student[5]) # Throws Error bcz 5 index not exist in this List
+
