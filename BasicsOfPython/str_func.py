@@ -1,4 +1,4 @@
-str = "i am studying Python from ApnaCollege."
+str = "i am from studying Python from ApnaCollege."
 
 print(str.endswith("ege.")) # Returns True if string ends with substr.
 
@@ -21,4 +21,8 @@ print(str.replace("studying", "bhanu chu"))
 print(str.find("from"))
 
 print(str.find("W")) # gives -1 bcz this char not exist in the string
+
+# str.count()
+
+print(str.count("from"))
 
