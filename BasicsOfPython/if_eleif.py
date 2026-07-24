@@ -7,4 +7,4 @@ elif (light == "yellow"):
 elif(light == "green"):
     print("Go boss !")
 else:
-    print("Light is Broken...")
+    print("Light is Broken...") 
