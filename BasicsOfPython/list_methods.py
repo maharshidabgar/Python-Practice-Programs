@@ -43,3 +43,17 @@ print(list2)
 list2.insert(0,9)
 
 print(list2) 
+
+# List - Remove
+
+list.remove(6) # First 6 Occurence = Dekhayelo Remove Thay
+
+print(list)
+
+# List - Pop - Removes element at Index
+
+last = [11, 22, 45, 55]
+
+last.pop(2) # 2 idx = 45 Element Remove
+
+print(last)
