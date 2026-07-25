@@ -12,11 +12,23 @@ list.sort() # Directly Not print(list.sort()) = it throws None
 
 print(list) 
 
+# String Sorting 
+
+fruit = ["banana", "apple", "lichi", "chickoo"]
+
+fruit.sort() # Alphabettical Sorting in String 
+
+print(fruit)
+
 # List - Reverse - Sort
 
 list.sort(reverse = True)
 
 print(list)
+
+fruit.sort(reverse = True) # Alphabetical Reverse Sorting for String
+
+print(fruit)
 
 # List - Reverse
 
