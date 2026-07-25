@@ -8,9 +8,9 @@ print(list)
 
 # List - Sort
 
-list.sort()
+list.sort() # Directly Not print(list.sort()) = it throws None
 
-print(list)
+print(list) 
 
 # List - Reverse - Sort
 
