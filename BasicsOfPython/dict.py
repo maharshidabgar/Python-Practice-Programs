@@ -27,3 +27,13 @@ info["name"] = "Komal" # OverWrite old name is Gayab & newName aa jayega
 info["surname"] = "Dabgar" # Add new Key : Value Pair
 
 print(info) 
+
+# Null Dictionary
+
+null_dict = {}
+
+null_dict["naam"] = "Nidhi"
+
+null_dict["surnaam"] = "Patel"
+
+print(null_dict)
