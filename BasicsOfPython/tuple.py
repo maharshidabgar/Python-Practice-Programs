@@ -11,5 +11,9 @@ print(tup[1]) # Access of Tuple is Allowed
 
 # is not Allowed Item Assignmet
 
+tuple = (1,) # Its ok but tuple = (1) ... it gives int 
 
+# tuple = (1.0) ... it gives Float Value
+
+print(type(tuple))
 
