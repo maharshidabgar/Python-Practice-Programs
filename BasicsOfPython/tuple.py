@@ -17,3 +17,6 @@ tuple = (1,) # Its ok but tuple = (1) ... it gives int
 
 print(type(tuple))
 
+# Slicing in Tuple
+
+print(tup[1:3]) # all same as List 
