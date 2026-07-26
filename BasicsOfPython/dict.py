@@ -19,3 +19,11 @@ print(info["subject"]) # Access dict values through it Key
 print(info["key"])
 
 print(info["cgpa"])
+
+# Changing keys 
+
+info["name"] = "Komal" # OverWrite old name is Gayab & newName aa jayega
+
+info["surname"] = "Dabgar" # Add new Key : Value Pair
+
+print(info) 
