@@ -14,6 +14,11 @@ print(newSet)
 
 print(len(newSet)) # Total Number of Items
 
+# Empty Set
+
+null_set = set()
+print(type(null_set))
+
 # do not store List & Dictionary in set bcz It Mutable
 
 # Set is Immutable 
