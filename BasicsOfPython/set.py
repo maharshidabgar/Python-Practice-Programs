@@ -1,10 +1,10 @@
-set = {1, 2, 2, 3, 4}
+my_set = {1, 2, 2, 3, 4}
 
 # 2 is two times but print only 1 time
 
-print(set) # {1,2,3,4}
+print(my_set) # {1,2,3,4}
 
-print(type(set))
+print(type(my_set))
 
 # Stores Immutable things like - int, float, str, bool
 
