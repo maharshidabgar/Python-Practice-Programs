@@ -11,10 +11,8 @@ set.remove(11)
 
 # Empties the Set
 
-set.clear()
+# set.clear()
 
 # Removes a Random Value
 
-set.pop()
-
-print(set)
+print(set.pop())
