@@ -16,3 +16,4 @@ set.remove(11)
 # Removes a Random Value
 
 print(set.pop())
+print(set.pop())
