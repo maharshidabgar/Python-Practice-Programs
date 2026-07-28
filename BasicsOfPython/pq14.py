@@ -4,13 +4,13 @@ Use subject name as Key & marks as Values...'''
 
 marks = {} # Empty Dict
 
-sub1 = input("Enter Sub1 Name : ")
-marks[sub1] = int(input("Enter Marks : "))
+mark1 = int(input("Enter Phy Marks : "))
+marks.update({"Phy": mark1})
 
-sub2 = input("Enter Sub2 Name : ")
-marks[sub2] = int(input("Enter Marks : "))
+mark2 = int(input("Enter Math Marks : "))
+marks.update({"Math": mark2})
 
-sub3 = input("Enter Sub3 Name : ")
-marks[sub3] = int(input("Enter Marks : "))
+mark3 = int(input("Enter Chem Marks : "))
+marks.update({"Chem": mark3})
 
-print(marks)
+print(marks) 
