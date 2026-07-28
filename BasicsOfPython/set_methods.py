@@ -1,4 +1,3 @@
-
 set = {11, "Hellow", 45, 78, 72.99}
 
 # Add - Method for Element
@@ -11,7 +10,7 @@ set.remove(11)
 
 # Empties the Set
 
-# set.clear()
+set.clear()
 
 # Removes a Random Value
 
