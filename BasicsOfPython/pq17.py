@@ -61,5 +61,7 @@ while i < len(tup): # Stopping Condition
 
     else:
         print("Finding...")
-
+        break
     i += 1 # Increment
+
+print("End of Loop ! ")
