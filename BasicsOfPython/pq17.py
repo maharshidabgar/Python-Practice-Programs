@@ -53,10 +53,13 @@ x = int(input("Enter Tup's Any Num : "))
 
 i = 0 # Initialization
 
-while i < len(tup):
+while i < len(tup): # Stopping Condition
 
-    if (tup[i] == x):
+    if (tup[i] == x): 
 
         print("Found At Index ...",i)
 
-    i += 1
+    else:
+        print("Finding...")
+
+    i += 1 # Increment
