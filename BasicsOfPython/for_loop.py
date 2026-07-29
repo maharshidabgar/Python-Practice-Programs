@@ -6,7 +6,7 @@ for el in list: # el is List'S Element Name we are Give any name
 
 # With Else
 
-for el in list:
+for el in list: 
 
     print(el)
 
@@ -16,10 +16,30 @@ else:
 
 vagies = ["Potato", "Brinjal", "Cucumber", "LadyFinger"]
 
-for val in vagies:
+for vagi in vagies:
 
-    print(val)
+    print(vagi) # el & vl is on user Decision it is not Fix name
 
 else:
 
     print("End")
+
+# Tuple Example
+
+tup = (1, 2, 3, 4, 2, 8, 9)
+
+for tu in tup:
+
+    print(tu)
+
+else:
+
+    print("Endddd")
+
+# String Example
+
+str = "JaySwamiNarayan Bappa"
+
+for char in str:
+
+    print(char)
