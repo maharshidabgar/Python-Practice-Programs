@@ -9,5 +9,6 @@ for el in tup:
     if (el == x):
 
         print("Number found at idx...",idx)
+        break
 
     idx += 1
