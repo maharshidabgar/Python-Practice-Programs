@@ -34,7 +34,7 @@ for tu in tup:
 
 else:
 
-    print("Endddd")
+    print("Endduu")
 
 # String Example
 
@@ -42,4 +42,14 @@ str = "JaySwamiNarayan Bappa"
 
 for char in str:
 
+    if (char == "B"):
+
+        print("B found...")
+
+        break
+
     print(char)
+
+else:
+
+    print("Endddddd")
