@@ -35,3 +35,9 @@ def printing():
 printing()
 printing()
 printing()
+
+# None Function
+
+op = printing()
+
+print(op) # This returns None 
