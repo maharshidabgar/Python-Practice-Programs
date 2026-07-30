@@ -8,4 +8,4 @@ def avg_num(a, b, c):
 
     return avg
 
-avg_num(1, 2, 3)
+avg_num(1, 2, 3) 
