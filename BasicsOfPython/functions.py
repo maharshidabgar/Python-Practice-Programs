@@ -6,7 +6,7 @@ def calc_sum(a, b): # Parameter = IP Values / var_names
 
     return sum # Outside print / OP value
 
-calc_sum(5, 6) # Function Calling => Work Assigning the var_values 
+calc_sum(5, 6) # Function Calling => Arguments = var_values apply
 
 # upper declare a, b
 
