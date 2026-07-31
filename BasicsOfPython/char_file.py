@@ -42,6 +42,12 @@ data = f.read(4)
 
 print(data)
 
+# 'x' Create a 
+ 
+f = open("newfile.txt", "x")
 
+f.write("Hello, Maharshi!")
 
+f.close()
 
+print("File created successfully.")
