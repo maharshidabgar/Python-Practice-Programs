@@ -1,7 +1,7 @@
 
 f = open("demo.txt", "r") # Open a File
 
-data = f.read()      # Read the entire file
+data = f.read(4)      # Read the entire file
 
 print(data)
 
