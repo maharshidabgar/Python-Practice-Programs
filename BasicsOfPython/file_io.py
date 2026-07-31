@@ -1,52 +1,52 @@
-# Open a File
+# # Open a File
 
-f = open("demo.txt", "r") 
+# f = open("demo.txt", "r") 
 
-# Read the entire file
+# # Read the entire file
 
-data = f.read(4)      
+# data = f.read(4)      
 
-print(data)
+# print(data)
 
-# Type of demo.txt data
+# # Type of demo.txt data
 
-print(type(data)) 
+# print(type(data)) 
 
-# Close the file
+# # Close the file
 
-f.close()       
+# f.close()       
 
-fo = open("demo.txt","r+") 
+# fo = open("demo.txt","r+") 
 
-# Read full Line
+# # Read full Line
 
-line1 = fo.readline() 
+# line1 = fo.readline() 
 
-print(line1)
+# print(line1)
 
-line2 = fo.readline() 
+# line2 = fo.readline() 
 
-print(line2)
+# print(line2)
 
-line3 = fo.readline()
+# line3 = fo.readline()
 
-print(line3)
+# print(line3)
 
-f.close()
+# f.close()
 
-# Wriring(overWrite in file)
+# # Wriring(overWrite in file)
 
-f = open("demo.txt","w")
+# f = open("demo.txt","w")
 
-f.write("Jay Mataji Bapu Kem che...")
+# f.write("Jay Mataji Bapu Kem che...")
 
-f.close()
+# f.close()
 
 # Adding a Line
 
 f = open("demo.txt","a")
 
-# Adds to the File
+f.write("This is a NewLine...") # Adds to the File
 
-f.write("This is a NewLine...")
+f.close()
 
