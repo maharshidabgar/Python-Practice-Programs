@@ -1,18 +1,26 @@
+# Open a File
 
-f = open("demo.txt", "r") # Open a File
+f = open("demo.txt", "r") 
 
-data = f.read(4)      # Read the entire file
+# Read the entire file
+
+data = f.read(4)      
 
 print(data)
 
-print(type(data)) # Type of demo.txt data
+# Type of demo.txt data
 
-f.close()       # Close the file
+print(type(data)) 
 
+# Close the file
+
+f.close()       
 
 fo = open("demo.txt","r+") 
 
-line1 = fo.readline() # Read full Line
+# Read full Line
+
+line1 = fo.readline() 
 
 print(line1)
 
@@ -26,5 +34,19 @@ print(line3)
 
 f.close()
 
-# 
+# Wriring(overWrite in file)
+
+f = open("demo.txt","w")
+
+f.write("Jay Mataji Bapu Kem che...")
+
+f.close()
+
+# Adding a Line
+
+f = open("demo.txt","a")
+
+# Adds to the File
+
+f.write("This is a NewLine...")
 
