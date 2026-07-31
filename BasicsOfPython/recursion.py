@@ -10,5 +10,4 @@ def print_num(n):
 
     print_num(n-1) # Recursive Call
 
-print_num(5)
-
+print_num(5) 
