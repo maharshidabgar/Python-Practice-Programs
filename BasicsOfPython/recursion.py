@@ -1,13 +1,14 @@
 # Recursive - Function
 
-def show(n):
+def print_num(n):
 
-    if (n == 0):
+    if (n == 0): # Base Case
 
         return 
 
     print(n)
 
-    show(n-1)
+    print_num(n-1) # Recursive Call
 
-show(5)
+print_num(5)
+
