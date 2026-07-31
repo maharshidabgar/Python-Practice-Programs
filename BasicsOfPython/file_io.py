@@ -46,7 +46,7 @@ f.close()
 
 f = open("demo.txt","a")
 
-f.write("This is a NewLine...") # Adds to the File
+f.write("\nThis is a NewLine...") # Adds to the File
 
 f.close()
 
