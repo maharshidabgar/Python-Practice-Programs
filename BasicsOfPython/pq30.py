@@ -10,11 +10,9 @@ I like programming in Java.
 
 '''
 
-f = open("practice.txt", "w")
+with open("practice.txt", "w") as f:
 
-f.write("Hi everyone we\n")
-f.write("we are learning File I/O\n")
-f.write("using Java\n")
-f.write("I like programming in Java...")
-
-f.close()
+    f.write("Hi everyone\n")
+    f.write("we are learninng File I/O\n")
+    f.write("using Java.\n")
+    f.write("I like programming in Java.\n")

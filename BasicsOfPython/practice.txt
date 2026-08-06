@@ -1,4 +1,4 @@
-Hi everyone we
-we are learning File I/O
-using Java
-I like programming in Java...
+Hi everyone
+we are learninng File I/O
+using Java.
+I like programming in Java.
