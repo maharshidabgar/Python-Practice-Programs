@@ -1,6 +1,13 @@
 # WAF that replace all occurences of "java" with "python" in above file.
 
-f = open("practice.txt", "r+")
+with open("practice.txt", "r") as f:
 
-data = f.read()
+    data = f.read()
 
+new_data = data.replace("Java", "Python")
+
+print(new_data)
+
+with open("practice.txt", "w") as f:
+
+    f.write(new_data)
