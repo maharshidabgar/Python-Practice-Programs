@@ -1,6 +1,6 @@
 # Search if the word "learning" exists in the file or not.
 
-word = "learning"
+word = "learnding"
 
 with open("practice.txt", "r") as f:
 
