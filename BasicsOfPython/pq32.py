@@ -1,16 +1,19 @@
 # Search if the word "learning" exists in the file or not.
 
-word = "learnding"
+def check_for_word():
 
-with open("practice.txt", "r") as f:
+    word = "learning"
 
-    data = f.read()
+    with open("practice.txt", "r") as f:
 
-    if(data.find(word) != -1):
+        data = f.read()
 
-        print("Found...")
+        if(data.find(word) != -1):
 
-    else:
+            print("Found...")
 
-        print("Not found !")
+        else:
 
+            print("Not found !")
+
+check_for_word()
