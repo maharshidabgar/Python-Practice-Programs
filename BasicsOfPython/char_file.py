@@ -51,3 +51,13 @@ f.write("Hello, Maharshi!")
 f.close()
 
 print("File created successfully.")
+
+# 'a+' = Read + Append
+
+f = open("newfile.txt", "a+")
+
+print(f.read())
+
+f.write("zbc")
+
+f.close()
