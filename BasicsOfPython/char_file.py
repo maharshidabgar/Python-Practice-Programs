@@ -42,7 +42,7 @@ data = f.read(4)
 
 print(data)
 
-# 'x' Create a 
+# 'x' Create a new file Exclusively
  
 f = open("newfile.txt", "x")
 
