@@ -3,7 +3,7 @@
 
 def check_line_word():
 
-    word = "learning"
+    word = "leing"
 
     data = True
 
@@ -24,4 +24,4 @@ def check_line_word():
 
     return -1
 
-check_line_word()
+print(check_line_word())
