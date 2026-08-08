@@ -1,5 +1,14 @@
 class student:
 
+    # Default Constructor
+
+    def __init__(self):
+
+        pass
+
+
+    # Parameterized Constructors
+    
     def __init__(self, name, marks):
 
         self.name = name
