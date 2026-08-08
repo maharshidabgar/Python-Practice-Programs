@@ -1,8 +1,10 @@
 class student:
 
     # Global Variable Declaration in Class
-    
+
     college_name = "B.N Patel Science College" 
+    name = "Anonymous" # class attr
+
 
     # Default Constructor
 
@@ -10,12 +12,11 @@ class student:
 
         pass
 
-
     # Parameterized Constructors
 
     def __init__(self, name, marks):
 
-        self.name = name
+        self.name = name # obj attr > class attr 
 
         self.marks = marks
 
