@@ -1,10 +1,10 @@
 class Stiu: # Class Declaration
 
-    college_name = "B.N Patel Science" # Global Attribute
+    college_name = "B.N Patel Science" # class Attribute
 
     def __init__(self, name, marks): # Constructor
 
-        self.name = name
+        self.name = name # object Attributes
         self.marks = marks
 
     def welcome(self): # METHOD with Compulsary with Self parameter
