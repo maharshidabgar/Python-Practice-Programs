@@ -3,19 +3,21 @@ as arguments in constructor. Then create a method to print the Average.'''
 
 class Student:
 
-    def __init__(self, name, marks1, marks2, marks3):
-        
-        self.name = name
-        self.marks1 = marks1
-        self.marks2 = marks2
-        self.marks3 = marks3
+    def __init__(self, name, marks):
 
-    def average(self):
-        avg = (self.marks1 + self.marks2 + self.marks3) / 3
-        print("Average marks:", avg)
+        self.name = name 
+        self.marks = marks
 
+    def get_avg(self):
 
-s1 = Student("Maharshi", 80, 90, 70)
+        sum = 0 
 
-print("Name:", s1.name)
-s1.average()
+        for val in self.marks:
+
+            sum += val
+
+        print("Hyy", self.name, "your avg score is :", sum/3)
+
+s1 = Student("Sapna", [45, 87, 96])
+
+s1.get_avg()
