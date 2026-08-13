@@ -2,7 +2,9 @@
 as arguments in constructor. Then create a method to print the Average.'''
 
 class Student:
+
     def __init__(self, name, marks1, marks2, marks3):
+        
         self.name = name
         self.marks1 = marks1
         self.marks2 = marks2
