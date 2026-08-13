@@ -1,17 +1,16 @@
-class Stiu:
+class Stiu: # Class Declaration
 
-    college_name = "B.N Patel Science"
+    college_name = "B.N Patel Science" # Global Attribute
 
-    def __init__(self, name, marks):
+    def __init__(self, name, marks): # Constructor
 
         self.name = name
         self.marks = marks
 
-    def welcome():
+    def welcome(self): # METHOD with Compulsary with Self parameter
 
-        print("Jay Mataji Balko !")
+        print("Jay Mataji", self.name)
 
 s1 = Stiu("Raman", 57)
 
-print(s1.name)
-
+s1.welcome()
