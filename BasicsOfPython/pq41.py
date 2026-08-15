@@ -15,10 +15,9 @@ class Account:
 
         print("Rs. ",amount, "was Debited from your Account !")
 
-        print("Current Balance = ", self.getBal())
+        print("Your Account Current Balance = ", self.getBal())
 
     # Credit - Method
-
     def credit(self, amount):
 
         self.bal += amount
