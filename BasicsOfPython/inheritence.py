@@ -1,3 +1,5 @@
+# single - inheritence
+
 class Car:
 
     color = "red"
