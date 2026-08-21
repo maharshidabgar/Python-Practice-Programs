@@ -12,4 +12,4 @@ class Student:
 s1 = Student("Maharshi", 85)
 
 print(s1.name)       # Works
-print(s1.reset_var)    # Its Run 
+print(s1.reset_var())    # Its Run 
