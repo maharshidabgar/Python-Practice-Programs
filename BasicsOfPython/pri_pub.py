@@ -3,11 +3,17 @@ class Account:
     def __init__(self, acc_no, acc_pass):
 
         self.acc_no = acc_no
-        self.acc_pass = acc_pass
+        self.__acc_pass = acc_pass
+
+
+    def reset_pass(self):
+
+        print(self.__acc_pass) # Password is in the Method = Privately
+
 
 acc = Account("123456", "gandocho")
 
-print(acc.acc_pass)
+print(acc.acc_no) # Publicly Access
 
-print(acc)
+print(acc.reset_pass()) # Privately Access
 
