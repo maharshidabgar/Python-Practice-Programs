@@ -22,6 +22,7 @@ class ToyotaCar(Car):
 
         self.name = name
         super().__init__(type) # Super Method Usage
+        super().start()
 
 car1 = ToyotaCar("Prius", "Electiric")
 print(car1.type)
