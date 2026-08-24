@@ -2,6 +2,7 @@ class Person:
 
     name = "anonymous"
 
+    # decorator
     @classmethod # change the name is class using cls keyword
 
     def changeName(cls, name):
