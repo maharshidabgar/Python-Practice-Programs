@@ -16,6 +16,25 @@ class emp:
         print("Salary = ", self.salary)
 
 
-sd = emp("HR-Manager", "IT", 55000)
+'''Create an Engineer class that inherits properties from Employee
+& has additional attributes : name & age.'''
 
-sd.showDetails()
+class Engineer(emp):
+
+    def __init__(self, name, age):
+
+        self.name = name
+        self.age = age
+        super().__init__("HR-Manager", "IT", 55000)
+
+
+
+en = Engineer("Maharshi", 21)
+
+en.showDetails()
+
+print(en.role)
+print(en.age)
+print(en.name)
+print(en.dept)
+print(en.salary)
